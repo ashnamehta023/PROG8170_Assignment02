@@ -8,25 +8,25 @@ namespace Prog8080_Asssignment2
 {
     class TriangleSolver
     {
-        public static string Analyze(int firstDimension, int secondDimension, int thridDimension)
+        public string CheckTriangle(int sideOne, int sideTwo, int sideThree)
         {
             
-            string opString = "These dimensions could not form a triangle";
+            string opString = "";
             string triangleName;
-            if (CheckValidityOfDimensions(firstDimension, secondDimension, thridDimension))
+            if (IsTriangleSidesValid(sideOne, sideTwo, sideThree))
             {
                 Console.WriteLine("\n These dimensions can form a triangle");
-                triangleName = CheckTriangle(firstDimension, secondDimension, thridDimension);
+                triangleName = CheckTriangle(sideOne, sideTwo, sideThree);
                 opString = triangleName;
                 
             }
             else
             {
-                //Console.WriteLine(opString);
+                opString = "These dimensions could not form a triangle";
             }
             return opString;
         }
-        public bool IsTriangleValid(int sideOne, int sideTwo, int sideThree)
+        public bool IsTriangleSidesValid(int sideOne, int sideTwo, int sideThree)
         {
             if (sideOne + sideTwo <= sideThree || sideOne + sideThree <= sideTwo || sideTwo + sideThree <= sideOne)
             {
