@@ -12,14 +12,14 @@ namespace Prog8170_Assignment2.Tests
         public void TestAnalyze_Input2_2_3_ExpectedOuptut_WillFormIsocelesTriangle()
         {
             output = TriangleSolver.Analyze(2,2,3);
-            Assert.AreEqual("Triangle can be formed. It will form Isoceles triangle", output);
+            Assert.AreEqual("Triangle can be formed. It will form Isosceles triangle", output);
         }
 
         [Test]
         public void TestAnalyze_Input9_9_10_ExpectedOuptut_WillFormIsocelesTriangle()
         {
             output = TriangleSolver.Analyze(9,9,12);
-            Assert.AreEqual("Triangle can be formed. It will form Isoceles triangle", output);
+            Assert.AreEqual("Triangle can be formed. It will form Isosceles triangle", output);
         }
 
         [Test]
