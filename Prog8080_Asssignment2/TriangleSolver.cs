@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog8080_Asssignment2
+namespace Prog8170_Assignment2
 {
     class TriangleSolver
     {
@@ -23,29 +23,31 @@ namespace Prog8080_Asssignment2
             }
             else if (sideOne == sideTwo && sideTwo == sideThree)
             {
-                Console.WriteLine("\n These dimensions can form a triangle\n");
-                triangleType = "Equilateral triangle";
+                Console.WriteLine(" \nThese dimensions can form a triangle");
+                triangleType = "Equilateral triangle\n----------------------\n";
             }
             else if (sideOne == sideTwo || sideOne == sideThree || sideTwo == sideThree)
             {
                 if (sideOne + sideTwo >= sideThree && sideOne + sideThree >= sideTwo && sideTwo + sideThree >= sideOne)
                 {
-                    triangleType = "These dimensions can not form a triangle\n----------------------\n";
+                    triangleType = "\nThese dimensions can form a triangle.\nIsosceles triangle\n----------------------\n";
+                    
                 }
                 else
                 {
-                    triangleType = "These dimensions can form a triangle.\n Isosceles triangle\n----------------------\n";
+                    triangleType = "\nThese dimensions can not form a triangle\n----------------------\n";
                 }
             }
             else if (sideOne != sideTwo || sideOne != sideThree || sideTwo != sideThree)
             {
                 if (sideOne + sideTwo >= sideThree && sideOne + sideThree >= sideTwo && sideTwo + sideThree >= sideOne)
                 {
-                    triangleType = "These dimensions can not form a triangle\n----------------------\n";
+                    triangleType = "\nThese dimensions can form a triangle.\nScalene triangle\n----------------------\n";
+                    
                 }
                 else
                 {
-                    triangleType = "These dimensions can form a triangle.\nScalene triangle\n----------------------\n";
+                    triangleType = "\nThese dimensions can not form a triangle\n----------------------\n";
                 }
             }
             return triangleType;

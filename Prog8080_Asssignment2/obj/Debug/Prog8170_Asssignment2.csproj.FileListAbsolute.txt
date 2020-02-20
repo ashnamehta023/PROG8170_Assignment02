@@ -1,0 +1,6 @@
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\bin\Debug\Prog8080_Asssignment2.exe.config
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\bin\Debug\Prog8080_Asssignment2.exe
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\bin\Debug\Prog8080_Asssignment2.pdb
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\obj\Debug\Prog8170_Asssignment2.csprojAssemblyReference.cache
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\obj\Debug\Prog8080_Asssignment2.exe
+C:\Users\ashna\source\repos\Prog8080_Asssignment2\Prog8080_Asssignment2\obj\Debug\Prog8080_Asssignment2.pdb

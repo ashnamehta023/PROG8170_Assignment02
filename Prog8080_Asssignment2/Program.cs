@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog8080_Asssignment2
+namespace Prog8170_Assignment2
 {
     class Program
     {
@@ -37,14 +37,14 @@ namespace Prog8080_Asssignment2
                     switch (userChoice)
                     {
                         case 1:
-                            Console.Write("\n Enter first side of Triangle: ");
+                            Console.Write("\nEnter first side of Triangle: ");
                             sideOne = CheckInputSide();
-                            Console.Write("\n Enter second side of Triangle: ");
+                            Console.Write("Enter second side of Triangle: ");
                             sideTwo = CheckInputSide();
-                            Console.Write("\n Enter thrid side of Triangle: ");
+                            Console.Write("Enter thrid side of Triangle: ");
                             sideThree = CheckInputSide();
-                            string answer = TriangleSolver.Analyze(sideOne, sideTwo, sideThree);
-                            Console.Write("\n Answer : {0}", answer);
+                            string result = TriangleSolver.Analyze(sideOne, sideTwo, sideThree);
+                            Console.Write(result);
                             break;
 
                         case 2:
