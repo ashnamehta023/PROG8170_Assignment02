@@ -8,36 +8,34 @@ namespace Prog8080_Asssignment2
 {
     class TriangleSolver
     {
-        public string CheckTriangle(int sideOne, int sideTwo, int sideThree)
+        public static string Analyze(int sideOne, int sideTwo, int sideThree)
         {
-            
-            string opString = "";
-            string triangleName;
-            if (IsTriangleSidesValid(sideOne, sideTwo, sideThree))
+            string result = "";
+            string traingleType;
+            if (IsTriangleSidesValid(sideOne, sideTwo, sideThree)==0)
             {
                 Console.WriteLine("\n These dimensions can form a triangle");
-                triangleName = CheckTriangle(sideOne, sideTwo, sideThree);
-                opString = triangleName;
-                
+                traingleType = CheckTriagnleType(sideOne, sideTwo, sideThree);
+                result = traingleType;
             }
             else
             {
-                opString = "These dimensions could not form a triangle";
+                result = "These dimensions could not form a triangle";
             }
-            return opString;
+            return result;
         }
-        public bool IsTriangleSidesValid(int sideOne, int sideTwo, int sideThree)
+        public static int IsTriangleSidesValid(int sideOne, int sideTwo, int sideThree)
         {
             if (sideOne + sideTwo <= sideThree || sideOne + sideThree <= sideTwo || sideTwo + sideThree <= sideOne)
             {
-                return false;
+                return 1;
             }
             else
             {
-                return true;
+                return 0;
             }
         }
-        public string CheckTriagnleType(int sideOne, int sideTwo, int sideThree)
+        public static string CheckTriagnleType(int sideOne, int sideTwo, int sideThree)
         {
             string triangleType = "nothing defined";
             if (sideOne == sideTwo && sideTwo == sideThree)
@@ -48,12 +46,11 @@ namespace Prog8080_Asssignment2
             {
                 triangleType = "Isosceles triangle";
             }
-            else
+            else if(sideOne != sideTwo || sideOne != sideThree || sideTwo != sideThree)
             {
                 triangleType = "Scalene triangle";
             }
             return triangleType;
         }
-    
-}
+    }
 }
