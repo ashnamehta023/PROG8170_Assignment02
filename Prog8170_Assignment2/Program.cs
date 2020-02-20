@@ -20,9 +20,9 @@ namespace Prog8170_Assignment2
             {
                 do
                 {
-                    Console.WriteLine("\n 1.Enter triangle Dimensions");
-                    Console.WriteLine("\n 2.Exit");
-                    Console.Write("\n Select option:");
+                    Console.WriteLine("1.Enter triangle Dimensions");
+                    Console.WriteLine("2.Exit");
+                    Console.Write("Select option:");
 
                     do
                     {
@@ -44,7 +44,7 @@ namespace Prog8170_Assignment2
                             Console.Write("Enter thrid side of Triangle: ");
                             sideThree = CheckInputSide();
                             string result = TriangleSolver.Analyze(sideOne, sideTwo, sideThree);
-                            Console.Write(result);
+                            Console.Write("\n"+result + "\n--------------------\n");
                             break;
 
                         case 2:

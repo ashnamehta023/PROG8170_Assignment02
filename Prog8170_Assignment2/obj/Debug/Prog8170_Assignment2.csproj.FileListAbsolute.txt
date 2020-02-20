@@ -10,3 +10,4 @@ C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\bin\Debug
 C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.csproj.CopyComplete
 C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.exe
 C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.pdb
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.csprojAssemblyReference.cache

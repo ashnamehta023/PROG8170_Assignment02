@@ -10,12 +10,6 @@ namespace Prog8170_Assignment2
     {
         public static string Analyze(int sideOne, int sideTwo, int sideThree)
         {
-            string result = CheckTriagnleType(sideOne, sideTwo, sideThree);
-            return result;
-        }
-
-        public static string CheckTriagnleType(int sideOne, int sideTwo, int sideThree)
-        {
             string triangleType = "No data for side length available";
             if (sideOne == 0 || sideTwo == 0 || sideThree == 0)
             {
@@ -44,7 +38,7 @@ namespace Prog8170_Assignment2
 
                 }
                 else
-                {                    
+                {
                     triangleType = "Triangle can be formed. It will form Scalene triangle";
                 }
             }
