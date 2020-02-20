@@ -71,12 +71,13 @@ namespace Prog8170_Assignment2
                 do
                 {
                     inputString = Console.ReadLine();
-                    if (!int.TryParse(inputString, out value) || value < 0)
+                    if (!int.TryParse(inputString, out value) || value <= 0)
                     {
                         Console.WriteLine("Side can only be positive integer");
+                        Console.Write("Enter the length again: ");
                     }
 
-                } while (!int.TryParse(inputString, out value) || value < 0);
+                } while (!int.TryParse(inputString, out value) || value <= 0);
                 return value;
             }
 
