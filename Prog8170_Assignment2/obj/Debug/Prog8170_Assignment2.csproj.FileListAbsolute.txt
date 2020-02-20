@@ -1,0 +1,6 @@
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\bin\Debug\Prog8170_Assignment2.exe.config
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\bin\Debug\Prog8170_Assignment2.exe
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\bin\Debug\Prog8170_Assignment2.pdb
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.csprojAssemblyReference.cache
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.exe
+C:\Users\ashna\source\repos\Prog8170_Asssignment2\Prog8170_Assignment2\obj\Debug\Prog8170_Assignment2.pdb
