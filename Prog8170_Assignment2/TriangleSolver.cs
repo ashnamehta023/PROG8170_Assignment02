@@ -11,9 +11,9 @@ namespace Prog8170_Assignment2
         public static string Analyze(int sideOne, int sideTwo, int sideThree)
         {
             string triangleType = "No data for side length available";
-            if (sideOne == 0 || sideTwo == 0 || sideThree == 0)
+            if (sideOne <= 0 || sideTwo <= 0 || sideThree <= 0)
             {
-                triangleType = "No side of a triangle can be Zero";
+                triangleType = "No side of a triangle can be Zero or negative";
             }
             else if (sideOne == sideTwo && sideTwo == sideThree)
             {
